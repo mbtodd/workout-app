@@ -3,14 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { ProductsComponent } from './products.component';
-import { MichaelToddsComponentComponent } from './michael-todds-component/michael-todds-component.component';
 
 @NgModule({
 	declarations:
 		[
 			AppComponent,
-			ProductsComponent,
-			MichaelToddsComponentComponent
+			ProductsComponent
 		],
 	imports:
 		[
